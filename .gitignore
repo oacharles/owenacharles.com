@@ -1,3 +1,8 @@
-*.py~
+*~
 \#*
 *__pycache__*
+*.jpg
+*.pdf
+*.DS_Store
+*.pyc
+*.png

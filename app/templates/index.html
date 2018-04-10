@@ -1,8 +1,44 @@
-<html>
-    <head>
-        <title>{{ title }} - Owen A. Charles</title>
-    </head>
-    <body>
-        <h1>Hello, {{ user.username }}!</h1>
-    </body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+        <div class="mdl-layout__tab-panel is-active" id="about">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+	    <div class="mdl-grid portfolio-max-width">
+              <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+		<div class="mdl-grid portfolio-copy">
+		  <div class="mdl-cell--9-col">
+		    <div class="mdl-card__supporting-text">
+          
+                <p>Hi, I’m Owen.</p> 
+		<br>
+		<p>I work as a software engineer and data scientist at 
+		  <a href='http://home.locus/'>Locus Analytics</a>, an economic research firm in New York City. 
+		  I spend my time there building and maintaining Locus’s company classification algorithms
+		  and working with clients to adapt our analytic techniques to their needs. 
+		  While much of my professional work centers on data science and machine learning in particular, I’m also very interested in <a href='https://en.wikipedia.org/wiki/DevOps'>DevOps</a> and <a href='https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction'>Human-Computer Interaction</a>. Multiple experiences working with legacy code in active production environments have given me a strong affinity for well-designed, robust systems that are usable by real people.</p>
+<p>
+<p>
+Most of my work at Locus is done with Python and SQL. 
+In the past, I've done significant academic and professional coding in Java and Perl, built and maintained websites in the HTML/CSS/JavaScript ecosystem 
+(This site is using <a href="https://getmdl.io/">MDL</a> on a flask framework), and completed projects in SML, Elm, and C.  
+</p><p>
+		I graduated from the University of Chicago in June of 2017 with B.S. degrees in mathematics and computer science. I settled on my majors relatively late in college, and some of the most interesting and rewarding classes I took there covered linguistics, western civilization, economic analysis, and 19th century gothic literature. 
+</p><p>
+		I’m a city kid who grew up in San Francisco, but have always been lucky enough to spend a tremendous amount of time outside exploring the mountains, forests, and rivers of California. I’ve taken several road trips on my own, and have explored much of the emptier parts of the western United States. Eventually I’d like to make it to to all 50. 
+</p><p>
+		In my free time, I enjoy cooking, reading, writing, painting, and taking long walks around New York City - or wherever I happen to be at the time. 
+       </p>       
+	      </div></div>
+	      <div class="mdl-cell--3-col">	      
+		<img src="../../images/owen.jpg" style="float: right; width: 100%; margin-right: 1%; margin-bottom: 0.5em;">
+<br>
+	      
+		
+	      </div>
+</div></div>
+            </div>
+            
+          </section>
+        </div>
+
+{% endblock %}
